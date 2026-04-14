@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 font-body antialiased;
+  margin: 0;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle at 20% 15%, rgba(168, 85, 247, 0.28), transparent 25%),
+    radial-gradient(circle at 80% 20%, rgba(59, 130, 246, 0.26), transparent 22%),
+    radial-gradient(circle at 50% 85%, rgba(236, 72, 153, 0.25), transparent 28%),
+    linear-gradient(180deg, #050511 0%, #050816 50%, #02030a 100%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_0_30px_rgba(139,92,246,0.16)];
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-5 md:px-8;
+}
+
+.cursor-glow {
+  position: fixed;
+  width: 240px;
+  height: 240px;
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 40;
+  mix-blend-mode: screen;
+  filter: blur(42px);
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.24) 0%, rgba(59, 130, 246, 0.16) 38%, transparent 75%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1020;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a855f7, #3b82f6, #ec4899);
+  border-radius: 999px;
+}
