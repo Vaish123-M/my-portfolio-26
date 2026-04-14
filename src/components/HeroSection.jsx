@@ -59,13 +59,15 @@ export function HeroSection() {
             <ArrowDownToLine size={18} />
             View Projects
           </a>
-          <button
-            type="button"
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/10 px-5 py-3 text-sm font-semibold text-white transition hover:border-fuchsia-300/70 hover:bg-fuchsia-400/10"
           >
             <Download size={18} />
-            Resume Download
-          </button>
+            View Resume
+          </a>
         </motion.div>
       </div>
     </section>
