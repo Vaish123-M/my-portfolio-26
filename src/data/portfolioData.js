@@ -58,7 +58,7 @@ export const projects = [
     description:
       'Designed a mental wellness platform focused on tracking behavior patterns and surfacing awareness prompts for healthier day-to-day decisions.',
     tech: ['TypeScript'],
-    live: 'https://mind-ease.vercel.app',
+    live: 'https://mind-ease-theta.vercel.app/',
     github: 'https://github.com/Vaish123-M/mind-ease',
   },
   {
@@ -79,12 +79,28 @@ export const projects = [
   },
 ]
 
-export const experienceTimeline = [
-  'Intern at InternPe (Web Dev)',
-  'Intern at Prodigy Infotech',
-  'Campus Ambassador (AXIS VNIT, IIT Kharagpur Shaurya)',
-  'IIT Madras Makethon Finalist',
-  'Techathon 5.0 Participant',
+export const experienceEntries = [
+  {
+    period: 'August 2023 - July 2027',
+    title: 'Academic Journey',
+    organization: 'Computer Engineering',
+    description:
+      'Focused on building strong foundations in systems, software development, and applied problem solving throughout the degree program.',
+  },
+  {
+    period: 'Nov 2024 - Dec 2024',
+    title: 'Machine Learning Intern',
+    organization: 'AICTE - SAPxMicrosoft',
+    description:
+      'Built and evaluated an image classification model using TensorFlow with structured preprocessing and supervised learning workflows.',
+  },
+  {
+    period: 'May 2024 - Sep 2024',
+    title: 'Web Development Intern',
+    organization: 'InternPe & Prodigy Infotech',
+    description:
+      'Developed responsive web applications using HTML, CSS, and JavaScript with modular UI design and Git-based version control.',
+  },
 ]
 
 export const contacts = {

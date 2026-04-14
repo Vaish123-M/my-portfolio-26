@@ -54,7 +54,9 @@ export function HeroSection() {
               className="mt-10 flex flex-wrap gap-4"
             >
               <a
-                href="#projects"
+                href="https://mind-ease-theta.vercel.app"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-blue-500 px-5 py-3 text-sm font-semibold text-white transition hover:scale-[1.03]"
               >
                 <ArrowDownToLine size={18} />
