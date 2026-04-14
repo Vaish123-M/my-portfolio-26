@@ -92,3 +92,21 @@ export const contacts = {
   github: 'https://github.com/Vaish123-M',
   linkedin: 'https://www.linkedin.com/in/vaishnavi-mamulkar-33a06a21a/',
 }
+
+export const achievements = [
+  {
+    title: 'IIT Madras Makethon 2025',
+    category: 'Competition',
+    badge: 'Runner Up',
+  },
+  {
+    title: 'VNIT Space Innovation Challenge 2025',
+    category: 'Competition',
+    badge: 'Winner',
+  },
+  {
+    title: 'Top 3 Campus Ambassador',
+    category: 'Recognition',
+    badge: 'AXIS VNIT 2025 - All Phases',
+  },
+]

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { AboutSection } from './components/AboutSection'
+import { AchievementsSection } from './components/AchievementsSection'
 import { AnimatedBackground } from './components/AnimatedBackground'
 import { ContactSection } from './components/ContactSection'
 import { CursorGlow } from './components/CursorGlow'
@@ -36,6 +37,7 @@ function App() {
           <HeroSection />
           <AboutSection />
           <ProjectsSection />
+          <AchievementsSection />
           <ExperienceSection />
           <ContactSection />
         </motion.main>
